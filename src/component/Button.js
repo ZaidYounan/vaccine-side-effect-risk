@@ -32,7 +32,7 @@ function Button() {
 
     return (
         <div className="container">
-            <h1>The highest estimate for the chance of receiving the blood-clotting side-effect from the COVID-19 Vaccine is 1 in 50,000. For anyone who wants to "roll the dice" to get a feel of how rare this is, I've made this simple tool.</h1>
+            <h1>The highest estimate for the chance of receiving the blood-clotting side-effect from the COVID-19 Vaccine is roughly 1 in 50,000. For anyone who wants to "roll the dice" to get a feel of how rare this is, I've made this simple tool.</h1>
             <button className="btn btn-secondary btn-lg" onClick={handleClick} disabled={disableButton}>
                 Take the Vaccine!
             </button>
