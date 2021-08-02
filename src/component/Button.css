@@ -1,0 +1,42 @@
+html, body {
+    height:100%;
+}
+
+div#root {
+    height:100%;
+}
+
+div.App {
+    height:100%;
+}
+
+div.container {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-top:5%;
+    height:75%;
+}
+
+div > p {
+    width:50%;
+    margin-bottom:2%;
+}
+
+h1 {
+    width:80%;
+    margin:5%;
+}
+
+.result {
+    margin:2%;
+    font-size:larger;
+}
+
+@media screen and (max-width: 500px) {
+    div.container {
+      height:100%;
+      border:none;
+      box-shadow:none;
+    }
+}
