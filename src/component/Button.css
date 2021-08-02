@@ -17,6 +17,7 @@ div.App {
 div.container {
     display:flex;
     align-items:center;
+    justify-content:center;
     flex-direction:column;
     height:75%;
 }
@@ -29,6 +30,7 @@ div > p {
 h1 {
     width:80%;
     margin:5%;
+    margin-top:0;
 }
 
 .result {
