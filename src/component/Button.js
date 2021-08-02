@@ -13,13 +13,16 @@ function Button() {
 
     
 
+    
+    var unLucky = 666;
 
     return (
         <div>
+            <p>If you get {unLucky}, you have received the blood-clotting side effect!</p>
             <button onClick={handleClick}>
                 Click Here!
             </button>
-            {randomNumber}
+            <p>{randomNumber}</p>
         </div>
     )
 }
