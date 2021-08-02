@@ -39,7 +39,7 @@ function Button() {
             {checkUnlucky()}
             <p>{randomNumber}</p>
             <p>You have been assigned the unlucky number <strong>{unLucky}</strong>. If you roll this number, that is symbolic of receiving the blood-clotting side-effect from the COVID-19 Vaccine.</p>
-
+            <p>By <a href='https://github.com/ZaidYounan'>ZaidYounan</a></p>
         </div>
         
     )
