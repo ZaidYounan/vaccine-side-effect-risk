@@ -10,6 +10,8 @@ div#root {
 
 div.App {
     height:100%;
+    display:flex;
+    justify-content:center;
 }
 
 div.container {
@@ -52,5 +54,10 @@ h1 {
       height:100%;
       border:none;
       box-shadow:none;
+    }
+
+    .negative-result {
+        width:80%;
+
     }
 }
