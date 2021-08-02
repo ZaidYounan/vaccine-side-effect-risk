@@ -1,5 +1,7 @@
 html, body {
     height:100%;
+    user-select:none;
+
 }
 
 div#root {
@@ -33,9 +35,7 @@ h1 {
     font-size:larger;
 }
 
-footer {
-    display:inline-block;
-}
+
 
 @media screen and (max-width: 500px) {
     div.container {
