@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Button/>
+      <footer>By <a href='https://github.com/ZaidYounan'>ZaidYounan</a></footer>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import '../App.css';
 import { useEffect, useState } from 'react';
 
 var min = 1;
-var max = 50000;
+var max = 6;
 
 const unLucky = Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -23,7 +23,7 @@ function Button() {
     
     const checkUnlucky = () => {
         if (randomNumber === unLucky) {
-            return <div className="result">You have received bloot clotting!</div>
+            return <div className="result"><strong>Unfortunately, you received blood clotting!</strong></div>
         } else if (randomNumber != unLucky && randomNumber != null) {
             return <div className="result"><strong>You have been safely vaccinated!</strong></div>
         }
@@ -39,7 +39,9 @@ function Button() {
             {checkUnlucky()}
             <p>{randomNumber}</p>
             <p>You have been assigned the unlucky number <strong>{unLucky}</strong>. If you roll this number, that is symbolic of receiving the blood-clotting side-effect from the COVID-19 Vaccine.</p>
+
         </div>
+        
     )
 }
 
