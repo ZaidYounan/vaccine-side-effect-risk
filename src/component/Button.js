@@ -23,7 +23,7 @@ function Button() {
     
     const checkUnlucky = () => {
         if (randomNumber === unLucky) {
-            return <div className="result"><strong>Unfortunately, you received blood clotting!</strong></div>
+            return <div className="negative-result"><strong>Unfortunately, you experienced blood-clotting! Please call for medical assistance!</strong></div>
         } else if (randomNumber != unLucky && randomNumber != null) {
             return <div className="result"><strong>You have been safely vaccinated!</strong></div>
         }

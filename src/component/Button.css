@@ -32,8 +32,18 @@ h1 {
 
 .result {
     margin:2%;
-    font-size:larger;
+    font-size:x-large;
 }
+
+.negative-result {
+    width:60%;
+    margin:2%;
+    font-size:xx-large;
+    color:crimson;
+    border: solid crimson 3px;
+    padding:5px;
+}
+
 
 
 
