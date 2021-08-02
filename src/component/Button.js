@@ -4,7 +4,7 @@ import '../App.css';
 import { useEffect, useState } from 'react';
 
 var min = 1;
-var max = 6;
+var max = 50000;
 
 const unLucky = Math.floor(Math.random() * (max - min + 1)) + min;
 
